@@ -1,0 +1,16 @@
+.btn{
+    padding: 6px 38px;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 32px;
+    display: flex;
+    column-gap:8px;
+    /* text-align: center; */
+
+}
+.activ{
+    display: block;
+}
+.none{
+    display: none;
+}
