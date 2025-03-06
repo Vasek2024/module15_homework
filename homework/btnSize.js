@@ -14,6 +14,6 @@ let bnnClick = document.querySelector('.btnTwo')
 bnnClick.addEventListener('click', () => {
 let dateWidth = document.documentElement.clientWidth,
     dateHeight = document.documentElement.clientHeight
-    alert(`Ширина и высота видимой части документа ${dateWidth} ${dateHeight}`)
+    alert(`Ширина - ${dateWidth} и высота - ${dateHeight} видимой части документа`)
     console.log(`Высоту и ширину видимой части документа ${dateWidth} ${dateHeight}`)
 })
