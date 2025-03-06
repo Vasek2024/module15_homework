@@ -1,7 +1,6 @@
     // задание 2
-    let moduleFifteen = document.getElementsByClassName('module__Fifteen'),
-    btnParameters = document.createElement('button')
-    document.body.appendChild(btnParameters)
+let btnParameters = document.createElement('button')
+    document.querySelector('.module__fifteen').appendChild(btnParameters)
     btnParameters.style.cssText = `
         padding: 6px 38px;
         width: 150px;
